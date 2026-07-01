@@ -22,7 +22,7 @@ import { themeConfig } from '@/config'
 const { title, pubDate, readingTime, toc = [], contentFeatures = {} } = Astro.props as PostLayoutProps
 
 const postSlug = Astro.url.pathname.split('/').filter(Boolean).pop() || ''
-const ogImage = `/open-graph/${postSlug}.png`
+const ogImage = new URL(`open-graph/${postSlug}.png`, Astro.site).toString()
 const shouldRenderToc = themeConfig.post.toc && toc.length > 0
 const shouldRenderCopyCode = themeConfig.post.copyCode && contentFeatures.hasCodeBlock
 const shouldRenderImageOptimizer = contentFeatures.hasContentImage

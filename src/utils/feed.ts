@@ -95,7 +95,7 @@ async function fixRelativeImagePaths(htmlContent: string, baseUrl: string, postP
  * Generate a generic Feed instance
  */
 async function generateFeedInstance(context: APIContext) {
-  const siteUrl = (context.site?.toString() || themeConfig.site.website).replace(/\/$/, '')
+  const siteUrl = `${(context.site?.toString() || themeConfig.site.website).replace(/\/+$/, '')}/`
   const { title = '', description = '', author = '', language = 'en-US' } = themeConfig.site
 
   const feed = new Feed({
@@ -160,11 +160,12 @@ async function generateFeedInstance(context: APIContext) {
  */
 export async function generateRSS(context: APIContext) {
   const feed = await generateFeedInstance(context)
+  const siteUrl = `${(context.site?.toString() || themeConfig.site.website).replace(/\/+$/, '')}/`
   const rssXml = feed
     .rss2()
     .replace(
       '<?xml version="1.0" encoding="utf-8"?>',
-      '<?xml version="1.0" encoding="utf-8"?>\n<?xml-stylesheet type="text/xsl" href="/feeds/rss-style.xsl"?>'
+      `<?xml version="1.0" encoding="utf-8"?>\n<?xml-stylesheet type="text/xsl" href="${siteUrl}feeds/rss-style.xsl"?>`
     )
   return new Response(rssXml, {
     headers: { 'Content-Type': 'application/rss+xml; charset=utf-8' }
@@ -176,11 +177,12 @@ export async function generateRSS(context: APIContext) {
  */
 export async function generateAtom(context: APIContext) {
   const feed = await generateFeedInstance(context)
+  const siteUrl = `${(context.site?.toString() || themeConfig.site.website).replace(/\/+$/, '')}/`
   const atomXml = feed
     .atom1()
     .replace(
       '<?xml version="1.0" encoding="utf-8"?>',
-      '<?xml version="1.0" encoding="utf-8"?>\n<?xml-stylesheet type="text/xsl" href="/feeds/atom-style.xsl"?>'
+      `<?xml version="1.0" encoding="utf-8"?>\n<?xml-stylesheet type="text/xsl" href="${siteUrl}feeds/atom-style.xsl"?>`
     )
   return new Response(atomXml, {
     headers: { 'Content-Type': 'application/atom+xml; charset=utf-8' }

@@ -3,16 +3,16 @@ import type { ThemeConfig } from './types'
 export const themeConfig: ThemeConfig = {
   // SITE INFO ///////////////////////////////////////////////////////////////////////////////////////////
   site: {
-    website: 'https://1232xx.github.io/blog', // Site domain
-    title: 'CHIRI', // Site title
-    author: '1232xx', // Author name
+    website: 'https://1232xx.github.io/blog/', // Site domain
+    title: 'MARKETS INSIDER', // Site title
+    author: '', // Author name
     description: '', // Site description
     language: 'ja-JP' // Default language
   },
 
   // GENERAL SETTINGS ////////////////////////////////////////////////////////////////////////////////////
   general: {
-    contentWidth: '35rem', // Content area width
+    contentWidth: '41rem', // Content area width
     centeredLayout: true, // Use centered layout (false for left-aligned)
     themeToggle: false, // Show theme toggle button (uses system theme by default)
     postListDottedDivider: false, // Show dotted divider in post list
