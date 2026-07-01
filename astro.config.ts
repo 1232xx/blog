@@ -16,7 +16,10 @@ import { imageConfig } from './src/utils/image-config'
 import path from 'path'
 
 export default defineConfig({
-  site: themeConfig.site.website,
+  site: 'https://1322zz.github.io', 
+  
+  // 公開するリポジトリ名（blog）を設定
+  base: 'blog',
   image: {
     service: {
       entrypoint: 'astro/assets/services/sharp',
