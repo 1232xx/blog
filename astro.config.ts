@@ -16,7 +16,7 @@ import { imageConfig } from './src/utils/image-config'
 import path from 'path'
 
 export default defineConfig({
-  site: 'https://1322zz.github.io', 
+  site: 'https://1232xx.github.io', 
   
   // 公開するリポジトリ名（blog）を設定
   base: 'blog',
