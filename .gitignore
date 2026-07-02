@@ -28,3 +28,6 @@ pnpm-debug.log*
 .netlify/
 
 *.tsbuildinfo
+
+ 
+GITHUB_PAGES.md

@@ -108,11 +108,13 @@
 
 /* Images */
 .prose img {
-  max-width: 100%;
+  max-width: 100%; /* 基本は100% */
   height: auto;
   display: block;
-  margin: 2em 0;
+  margin: 2em auto; /* 通常時は普通に中央寄せ */
 }
+
+
 
 .img-placeholder {
   background: var(--code-bg);
