@@ -14,10 +14,12 @@ You can leave this empty if you don’t want to show any content.
 
 <br>  
 
-> To play billiards moderately well is the sign
-> of a gentleman;  
-> to play it too well is the sign
-> of a misspent life.  
+> Patterns repeat,
+> because human nature hasn’t changed for thousands of years.
+
+<div style="text-align: right;">
+-Jesse Livermore
+</div>
 
 
 
