@@ -14,12 +14,13 @@ You can leave this empty if you don’t want to show any content.
 
 <br>  
 
-> Patterns repeat,
+> Patterns repeat, <br>
 > because human nature hasn’t changed for thousands of years.
 
 <div style="text-align: right;">
--Jesse Livermore
+&ensp;―&ensp;Jesse Livermore
 </div>
 
+---
 
 
