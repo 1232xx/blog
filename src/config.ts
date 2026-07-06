@@ -4,7 +4,7 @@ export const themeConfig: ThemeConfig = {
   // SITE INFO ///////////////////////////////////////////////////////////////////////////////////////////
   site: {
     website: 'https://1232xx.github.io/blog/', // Site domain
-    title: 'MARKETS INSIDER', // Site title
+    title: '', // Site title
     author: '', // Author name
     description: '', // Site description
     language: 'ja-JP' // Default language
