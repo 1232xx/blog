@@ -1,0 +1,173 @@
+---
+title: 【随時更新】ITストラテジスト単語帳
+pubDate: '2026-07-09'
+---
+
+
+# ITストラテジスト試験 用語帳
+---
+
+## 1. 経営戦略・経営管理システム系（午前Ⅱの最頻出ゾーン）
+
+| 略語 | 正式名称 | 何を管理するか | ひとこと |
+|---|---|---|---|
+| **SCM** | Supply Chain Management | 調達・生産・在庫・販売・物流の**モノの流れ全体** | 会社をまたいだ供給網の最適化。目的は**納期短縮・在庫削減** |
+| **CRM** | Customer Relationship Management | **顧客情報・購買履歴・クレーム**の一元管理 | 目的は**顧客満足度向上・良好な顧客関係の構築**（今回の問題の正解） |
+| **SFA** | Sales Force Automation | **商談・営業活動の進捗**を一元管理 | 目的は**営業活動の効率化**。CRMと混同しやすいが「対象が営業プロセスに限定」される点が違う |
+| **ERP** | Enterprise Resource Planning | 生産・販売・在庫・財務会計・人事など**基幹業務全体** | 目的は**経営資源の全社最適・経営効率向上**。SCMより対象が広い（社内の全業務） |
+
+
+
+### 経営プロセス改革・評価系
+
+| 略語 | 正式名称 | 意味 |
+|---|---|---|
+| **BPR** | Business Process Re-engineering | 業務プロセスを**ゼロから再設計**する抜本改革。複数企業・組織をまたぐ調達〜販売の業務全体を対象にすることもある |
+| **BPM** | Business Process Management | 業務プロセスを継続的に**可視化・改善**し続ける管理手法（BPRより穏やか・継続的） |
+| **BSC** | Balanced Scorecard | 財務・顧客・業務プロセス・学習と成長の**4つの視点**で業績評価する手法 |
+| **KGI** | Key Goal Indicator | **最終的な目標**の達成度を測る指標（例：売上高） |
+| **KPI** | Key Performance Indicator | 目標達成に向けた**プロセスの進捗**を測る指標（例：訪問件数） |
+| **KFS/CSF** | Key Factor for Success / Critical Success Factor | 目標達成のための**重要成功要因** |
+| **PDCA** | Plan-Do-Check-Act | 計画→実行→評価→改善のマネジメントサイクル |
+| **OODA** | Observe-Orient-Decide-Act | 観察→状況判断→意思決定→行動。変化の速い状況向けでPDCAより高速な意思決定サイクル |
+
+### 経営戦略の分析フレームワーク
+
+| 略語 | 正式名称 | 意味 |
+|---|---|---|
+| **SWOT** | Strengths, Weaknesses, Opportunities, Threats | 自社の強み・弱み・機会・脅威を分析 |
+| **PPM** | Product Portfolio Management | 「花形・金のなる木・問題児・負け犬」で事業を分類し資源配分を決める |
+| **3C分析** | Company, Customer, Competitor | 自社・顧客・競合の3視点で分析 |
+| **5フォース分析** | Five Forces Analysis（ポーターの分析） | 業界の競争構造を「新規参入・代替品・買い手・売り手・既存競争」の5つの力で分析 |
+| **VRIO** | Value, Rarity, Imitability, Organization | 経営資源の競争優位性を4つの視点で評価 |
+
+### 生産管理系
+
+| 略語 | 正式名称 | 意味 |
+|---|---|---|
+| **MRP** | Material Requirements Planning | 生産計画に基づき**資材の必要量・発注時期**を計算する手法 |
+| **JIT** | Just In Time | **必要な物を必要な時に必要なだけ**生産・調達する方式（トヨタ生産方式） |
+| **かんばん方式** | ― | JITを実現するための現場の情報伝達手法 |
+| **CIM** | Computer Integrated Manufacturing | コンピュータによる生産工程全体の統合管理 |
+| **FA** | Factory Automation | 工場の自動化 |
+
+---
+
+## 2. マーケティング系
+
+| 略語 | 正式名称 | 意味 |
+|---|---|---|
+| **4P** | Product, Price, Place, Promotion | 売り手視点のマーケティング要素 |
+| **4C** | Customer value, Cost, Convenience, Communication | 買い手視点の4P対応版 |
+| **STP** | Segmentation, Targeting, Positioning | 市場細分化→標的市場選定→自社の立ち位置決定 |
+| **AIDMA** | Attention, Interest, Desire, Memory, Action | 消費者の購買行動プロセス（従来型） |
+| **AISAS** | Attention, Interest, Search, Action, Share | ネット時代の購買行動プロセス（検索・共有が入る） |
+| **LTV** | Life Time Value | 顧客生涯価値。1人の顧客が生涯にもたらす利益 |
+| **NPS** | Net Promoter Score | 顧客ロイヤルティ（他者への推奨度）を数値化した指標 |
+
+---
+
+## 3. 財務・会計系
+
+| 略語 | 正式名称 | 意味 |
+|---|---|---|
+| **ROI** | Return On Investment | 投資利益率＝利益÷投資額 |
+| **ROE** | Return On Equity | 自己資本利益率 |
+| **ROA** | Return On Asset | 総資産利益率 |
+| **NPV** | Net Present Value | 正味現在価値。将来のキャッシュフローを現在価値に割り引いた合計 |
+| **IRR** | Internal Rate of Return | 内部収益率。NPVがゼロになる割引率 |
+| **PL** | Profit and Loss statement | 損益計算書 |
+| **BS** | Balance Sheet | 貸借対照表 |
+| **CF計算書** | Cash Flow statement | キャッシュフロー計算書 |
+| **BEP** | Break-Even Point | 損益分岐点 |
+
+---
+
+## 4. IT戦略・情報システム戦略系
+
+| 略語 | 正式名称 | 意味 |
+|---|---|---|
+| **EA** | Enterprise Architecture | 全社の業務とシステムを統一的視点で可視化・最適化するフレームワーク |
+| **DFD** | Data Flow Diagram | データの流れを図式化したもの（EAの成果物の一つ） |
+| **CIO** | Chief Information Officer | 最高情報責任者 |
+| **CDO** | Chief Digital Officer | 最高デジタル責任者 |
+| **DX** | Digital Transformation | デジタル技術による事業・組織の変革 |
+| **BCP** | Business Continuity Plan | 事業継続計画（災害時等に事業を継続するための計画） |
+| **BCM** | Business Continuity Management | BCPを維持・改善し続ける経営活動 |
+| **SLA** | Service Level Agreement | サービス提供者と利用者間の**サービス品質の合意書** |
+| **SLM** | Service Level Management | SLAの内容を継続的に管理・改善する活動 |
+
+---
+
+## 5. システム開発・プロジェクトマネジメント系
+
+### ★区別：開発モデル
+
+| 略語/用語 | 意味 |
+|---|---|
+| **ウォーターフォールモデル** | 要件定義→設計→開発→テストと**後戻りしない**順次進行型 |
+| **アジャイル** | 短い開発サイクルを繰り返し、変化に柔軟に対応する開発手法 |
+| **スクラム** | アジャイルの代表的な手法。スプリントという短期間の反復で開発 |
+| **DevOps** | Development + Operations | 開発チームと運用チームが連携し迅速にリリースする体制・文化 |
+| **プロトタイピングモデル** | 試作品を早期に作り、利用者の確認を得ながら開発 |
+| **スパイラルモデル** | 開発を複数回繰り返し、徐々に完成度を高める |
+
+### プロジェクトマネジメント（PMBOK関連）
+
+| 略語 | 正式名称 | 意味 |
+|---|---|---|
+| **PMBOK** | Project Management Body Of Knowledge | プロジェクトマネジメントの知識体系 |
+| **WBS** | Work Breakdown Structure | 作業を階層的に分解した構造図 |
+| **EVM** | Earned Value Management | 進捗と費用を金額換算し定量的に管理する手法 |
+| **PERT** | Program Evaluation and Review Technique | 作業の依存関係を図示し所要期間を管理する技法 |
+| **CPM** | Critical Path Method | 最も時間がかかる作業経路（クリティカルパス）を特定する手法 |
+
+---
+
+## 6. 運用・サービスマネジメント系
+
+| 略語 | 正式名称 | 意味 |
+|---|---|---|
+| **ITIL** | Information Technology Infrastructure Library | ITサービスマネジメントのベストプラクティス集 |
+| **ITSM** | IT Service Management | ITILの考え方に基づくITサービスの運用管理 |
+| **RFI** | Request For Information | 情報提供依頼（ベンダーに情報を求める） |
+| **RFP** | Request For Proposal | 提案依頼書（ベンダーに具体的な提案を求める） |
+| **SaaS** | Software as a Service | ソフトウェアをサービスとして提供 |
+| **PaaS** | Platform as a Service | 開発・実行環境をサービスとして提供 |
+| **IaaS** | Infrastructure as a Service | サーバ等の基盤をサービスとして提供 |
+
+---
+
+## 7. セキュリティ系
+
+| 略語 | 正式名称 | 意味 |
+|---|---|---|
+| **CSIRT** | Computer Security Incident Response Team | セキュリティインシデント対応チーム |
+| **ISMS** | Information Security Management System | 情報セキュリティマネジメントシステム |
+| **PDS** | Personal Data Store | 個人データを個人が管理・提供する仕組み |
+| **DR** | Disaster Recovery | 災害からのシステム復旧 |
+| **CSR** | Corporate Social Responsibility | 企業の社会的責任（※セキュリティ用語ではないが同じ略語感で混同しやすいので併記） |
+
+---
+
+## 8. 新技術・先端動向系
+
+| 略語 | 正式名称 | 意味 |
+|---|---|---|
+| **IoT** | Internet of Things | モノのインターネット |
+| **AI** | Artificial Intelligence | 人工知能 |
+| **RPA** | Robotic Process Automation | 定型業務をソフトウェアロボットが自動化 |
+| **API** | Application Programming Interface | ソフトウェア間の連携窓口 |
+| **BI** | Business Intelligence | データ分析による経営意思決定支援 |
+| **AR/VR/MR** | Augmented/Virtual/Mixed Reality | 拡張現実／仮想現実／複合現実 |
+
+---
+
+## 9. 法務・知財系
+
+| 略語 | 正式名称 | 意味 |
+|---|---|---|
+| **NDA** | Non-Disclosure Agreement | 秘密保持契約 |
+| **SES** | System Engineering Service | 準委任契約による技術者派遣に近い契約形態 |
+| **PL法** | Product Liability法 | 製造物責任法 |
+
