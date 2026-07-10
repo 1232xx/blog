@@ -6,7 +6,7 @@
   --content-width: 25rem;
 
   /* Typography */
-  --sans: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+  --sans: 'Cascadia Code' , Inter, -apple-system, BlinkMacSystemFont, sans-serif;
   --serif: Besley, Baskerville, Georgia, 'Times New Roman', Times, serif;
   --mono: 'Cascadia Code','SF Mono', SFMono-Regular, ui-monospace;
 
